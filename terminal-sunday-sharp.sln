@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "terminal-sunday-sharp", "terminal-sunday-sharp\terminal-sunday-sharp.csproj", "{673D4928-B2E4-48D4-8653-579C431F604D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{075D4A63-281A-4147-B894-69FE40CDFA50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{673D4928-B2E4-48D4-8653-579C431F604D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673D4928-B2E4-48D4-8653-579C431F604D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673D4928-B2E4-48D4-8653-579C431F604D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{673D4928-B2E4-48D4-8653-579C431F604D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075D4A63-281A-4147-B894-69FE40CDFA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075D4A63-281A-4147-B894-69FE40CDFA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075D4A63-281A-4147-B894-69FE40CDFA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075D4A63-281A-4147-B894-69FE40CDFA50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
