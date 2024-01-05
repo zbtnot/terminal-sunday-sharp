@@ -1,4 +1,6 @@
-﻿namespace terminal_sunday_sharp;
+﻿using System.Diagnostics;
+
+namespace terminal_sunday_sharp;
 
 internal static class Program
 {
@@ -8,8 +10,9 @@ internal static class Program
         string name;
         if (args.Length < 1)
         {
-            Console.WriteLine($"Usage: {AppDomain.CurrentDomain.FriendlyName} birthdate [username]");
-            Console.WriteLine($"Example: {AppDomain.CurrentDomain.FriendlyName} 1988-02-23 Gio");
+            var binName = Process.GetCurrentProcess().ProcessName;
+            Console.WriteLine($"Usage: {binName} birthdate [username]");
+            Console.WriteLine($"Example: {binName} 1988-02-23 Gio");
             return 1;
         }
 
