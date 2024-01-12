@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-
-namespace terminal_sunday_sharp;
+﻿namespace terminal_sunday_sharp;
 
 internal static class Program
 {
@@ -10,7 +8,7 @@ internal static class Program
         string name;
         if (args.Length < 1)
         {
-            var binName = Process.GetCurrentProcess().ProcessName;
+            var binName = Path.GetFileName(Environment.GetCommandLineArgs()[0]);
             Console.WriteLine($"Usage: {binName} birthdate [username]");
             Console.WriteLine($"Example: {binName} 1988-02-23 Gio");
             return 1;
